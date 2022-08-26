@@ -1,0 +1,646 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.Void Vizario.intStringBuilderCB::.ctor(System.Object,System.IntPtr)
+extern void intStringBuilderCB__ctor_mE2DD8F0C5E02ADCE9072198D00B783135C661DC8 (void);
+// 0x00000002 System.Void Vizario.intStringBuilderCB::Invoke(System.Int32,System.String)
+extern void intStringBuilderCB_Invoke_m9EDAF46475D38DBE37D6ECBB4C5974C567967D50 (void);
+// 0x00000003 System.IAsyncResult Vizario.intStringBuilderCB::BeginInvoke(System.Int32,System.String,System.AsyncCallback,System.Object)
+extern void intStringBuilderCB_BeginInvoke_mDEB15425EF315423A811815BFEC7F9ECDDF7F6AA (void);
+// 0x00000004 System.Void Vizario.intStringBuilderCB::EndInvoke(System.IAsyncResult)
+extern void intStringBuilderCB_EndInvoke_m3CB817F30B9656D5BD4536A8FC60064ADFE22054 (void);
+// 0x00000005 System.Void Vizario.str_intStringBuilderCB::.ctor(System.Object,System.IntPtr)
+extern void str_intStringBuilderCB__ctor_m5A2158D0B97A4347ED99D448126A336984D4DB80 (void);
+// 0x00000006 System.String Vizario.str_intStringBuilderCB::Invoke(System.Int32,System.String)
+extern void str_intStringBuilderCB_Invoke_mC9CAA7EDB0FB1E4B69BD454A42CFE63E65AC7BA7 (void);
+// 0x00000007 System.IAsyncResult Vizario.str_intStringBuilderCB::BeginInvoke(System.Int32,System.String,System.AsyncCallback,System.Object)
+extern void str_intStringBuilderCB_BeginInvoke_m7FFC6F94530B1E21DC94E4625DEB1C50B7B9A0F5 (void);
+// 0x00000008 System.String Vizario.str_intStringBuilderCB::EndInvoke(System.IAsyncResult)
+extern void str_intStringBuilderCB_EndInvoke_m57F618F1FCF361583DEC70C5CD5107851FFB53B9 (void);
+// 0x00000009 System.Void Vizario.PlatformWrapper::.ctor()
+extern void PlatformWrapper__ctor_m0432DFF8AE8D0CC14A781576D34C88C2CA8F4632 (void);
+// 0x0000000A Vizario.PlatformWrapper Vizario.PlatformWrapper::GetOrCreatePlatformWrapper()
+extern void PlatformWrapper_GetOrCreatePlatformWrapper_mD4F8CED7E365570F54E5982B14AA59490E098E20 (void);
+// 0x0000000B System.Void Vizario.PlatformWrapper::VizarioCore_getDeviceInfo(System.Text.StringBuilder,System.Int32)
+extern void PlatformWrapper_VizarioCore_getDeviceInfo_m613C5A38B178EA9F5169BE4BA37EA34148ABB78C (void);
+// 0x0000000C System.Boolean Vizario.PlatformWrapper::VizarioCore_registerCallbackA(System.Int32,Vizario.CBTYPE,Vizario.intStringBuilderCB,System.IntPtr)
+extern void PlatformWrapper_VizarioCore_registerCallbackA_mAB52BE0F36EAF1B77957123E2E0426454FBCFAEA (void);
+// 0x0000000D System.Boolean Vizario.PlatformWrapper::VizarioCore_registerCallbackB(System.Int32,Vizario.CBTYPE,Vizario.str_intStringBuilderCB,System.IntPtr)
+extern void PlatformWrapper_VizarioCore_registerCallbackB_m68C916C58AA9DFB41AD37A28ED225D4E98CA37BB (void);
+// 0x0000000E System.Boolean Vizario.PlatformWrapper::VizarioCore_unregisterCallback(System.Int32,Vizario.CBTYPE)
+extern void PlatformWrapper_VizarioCore_unregisterCallback_mEAF177852493FB7E04CFDD43AC52096E691B99B5 (void);
+// 0x0000000F System.Boolean Vizario.PlatformWrapper::VizarioCore_command(System.Int32,Vizario.CMDTYPE,System.String)
+extern void PlatformWrapper_VizarioCore_command_m182708081FF4D039A866FA4363912D45B4E56C4C (void);
+// 0x00000010 System.Boolean Vizario.PlatformWrapper::VizarioCore_setNativeTexturePointer(System.IntPtr,System.String)
+extern void PlatformWrapper_VizarioCore_setNativeTexturePointer_m656B9F6BBF93D49E74EB5682F6F153C781987B31 (void);
+// 0x00000011 System.Boolean Vizario.PlatformWrapper::VizarioCore_pushImageData(System.IntPtr,System.Int32,System.String,System.Int32)
+extern void PlatformWrapper_VizarioCore_pushImageData_mAF0C5F9CA0A98EE5E434681122F4F667A9B273D1 (void);
+// 0x00000012 System.Int32 Vizario.PlatformWrapper::VizarioCore_getSupportedCallbacks(System.Int32,System.IntPtr)
+extern void PlatformWrapper_VizarioCore_getSupportedCallbacks_mCCA15449490C04F899829C02F9313D17E9B5D4E9 (void);
+// 0x00000013 System.Void Vizario.PlatformWrapper::VizarioCore_destroy()
+extern void PlatformWrapper_VizarioCore_destroy_mCEDFC7D9D22CFB310575FB8956D2416981D67F0F (void);
+// 0x00000014 System.IntPtr Vizario.PlatformWrapper::VizarioCore_nativeRenderEventFunc()
+extern void PlatformWrapper_VizarioCore_nativeRenderEventFunc_mC5FCE00BB6059C7DC16D00777F7F076872F4D053 (void);
+// 0x00000015 System.Void Vizario.PlatformWrapper::VizarioCore_getDeviceInfoImpl(System.Text.StringBuilder,System.Int32)
+extern void PlatformWrapper_VizarioCore_getDeviceInfoImpl_mED8B500836B8A74568879DA804200D1BADD60805 (void);
+// 0x00000016 System.Void Vizario.PlatformWrapper::VizarioCore_initializeImpl()
+extern void PlatformWrapper_VizarioCore_initializeImpl_mFBA98D6DA9A257CD3B03504C9664E7F893CBD441 (void);
+// 0x00000017 System.Boolean Vizario.PlatformWrapper::VizarioCore_registerCallbackAImpl(System.Int32,Vizario.CBTYPE,Vizario.intStringBuilderCB,System.IntPtr)
+extern void PlatformWrapper_VizarioCore_registerCallbackAImpl_mB038C57525EEE374655C5C5EF35E1D3FA56CF8C7 (void);
+// 0x00000018 System.Boolean Vizario.PlatformWrapper::VizarioCore_registerCallbackBImpl(System.Int32,Vizario.CBTYPE,Vizario.str_intStringBuilderCB,System.IntPtr)
+extern void PlatformWrapper_VizarioCore_registerCallbackBImpl_m5C2015980421EC509047A366F82F35EFEA386CD3 (void);
+// 0x00000019 System.Boolean Vizario.PlatformWrapper::VizarioCore_unregisterCallbackImpl(System.Int32,Vizario.CBTYPE)
+extern void PlatformWrapper_VizarioCore_unregisterCallbackImpl_mC4CBFB9A4D2961F4CB1811DD332AF62851F4C961 (void);
+// 0x0000001A System.Boolean Vizario.PlatformWrapper::VizarioCore_commandImpl(System.Int32,Vizario.CMDTYPE,System.String)
+extern void PlatformWrapper_VizarioCore_commandImpl_mE0692CA4511104258D5217C27D979B84B7776D9C (void);
+// 0x0000001B System.Boolean Vizario.PlatformWrapper::VizarioCore_setNativeTexturePointerImpl(System.IntPtr,System.String)
+extern void PlatformWrapper_VizarioCore_setNativeTexturePointerImpl_mDA75EEDA4A1DF68F59C49A2EB0B1560CFDB0164C (void);
+// 0x0000001C System.Boolean Vizario.PlatformWrapper::VizarioCore_pushImageDataImpl(System.IntPtr,System.Int32,System.String,System.Int32)
+extern void PlatformWrapper_VizarioCore_pushImageDataImpl_m5813467CD4A20F8F8CF3537516FB70484D8EE7F3 (void);
+// 0x0000001D System.Int32 Vizario.PlatformWrapper::VizarioCore_getSupportedCallbacksImpl(System.Int32,System.IntPtr)
+extern void PlatformWrapper_VizarioCore_getSupportedCallbacksImpl_mF0F8DC5AADB5AC7E5005C027AC1D45C00299FC5B (void);
+// 0x0000001E System.Void Vizario.PlatformWrapper::VizarioCore_destroyImpl()
+extern void PlatformWrapper_VizarioCore_destroyImpl_mD9D0235CEAA2A1EE8883ECAB8062FE645E2F052E (void);
+// 0x0000001F System.IntPtr Vizario.PlatformWrapper::VizarioCore_nativeRenderEventFuncImpl()
+extern void PlatformWrapper_VizarioCore_nativeRenderEventFuncImpl_m5C2CA2311E839CA0C7086E6E88FF1DE76008E24A (void);
+// 0x00000020 System.Void Vizario.CoreWrapper::.ctor()
+extern void CoreWrapper__ctor_mB4E97592208EB6D4707BCF3CCC398F49DA787B99 (void);
+// 0x00000021 Vizario.CoreWrapper Vizario.CoreWrapper::GetOrCreateCoreWrapper()
+extern void CoreWrapper_GetOrCreateCoreWrapper_m9F5570677E0A9D390B89861F9CF5F903ECB88E97 (void);
+// 0x00000022 System.Void Vizario.CoreWrapper::VizarioCore_getDeviceInfo(System.Text.StringBuilder,System.Int32)
+extern void CoreWrapper_VizarioCore_getDeviceInfo_m0AC31658BEF1E53889B1052F996114CFD5492977 (void);
+// 0x00000023 System.Boolean Vizario.CoreWrapper::VizarioCore_registerCallbackA(System.Int32,Vizario.CBTYPE,Vizario.intStringBuilderCB)
+extern void CoreWrapper_VizarioCore_registerCallbackA_mBDC58530EB44DF61C659150F782B380DB1266971 (void);
+// 0x00000024 System.Boolean Vizario.CoreWrapper::VizarioCore_registerCallbackB(System.Int32,Vizario.CBTYPE,Vizario.str_intStringBuilderCB)
+extern void CoreWrapper_VizarioCore_registerCallbackB_m11866B6080388D92B7EF5D92ED59DEAA4C621887 (void);
+// 0x00000025 System.Boolean Vizario.CoreWrapper::VizarioCore_unregisterCallback(System.Int32,Vizario.CBTYPE)
+extern void CoreWrapper_VizarioCore_unregisterCallback_m94D79F336BE52568975FBE3639A9C0FB9E3A3074 (void);
+// 0x00000026 System.Boolean Vizario.CoreWrapper::VizarioCore_command(System.Int32,Vizario.CMDTYPE,System.String)
+extern void CoreWrapper_VizarioCore_command_mFD6EEC62DAC44ED820663CAC9C7505CF057A459C (void);
+// 0x00000027 System.Boolean Vizario.CoreWrapper::VizarioCore_setNativeTexturePointer(System.IntPtr,System.String)
+extern void CoreWrapper_VizarioCore_setNativeTexturePointer_m1C6A1CCFEE260E6376BBFD5A35570E0D1ED44CB4 (void);
+// 0x00000028 System.Boolean Vizario.CoreWrapper::VizarioCore_pushImageData(System.IntPtr,System.Int32,System.String,System.Int32)
+extern void CoreWrapper_VizarioCore_pushImageData_mDBAE350D13DB4B7040D7AC0F3469D92FD3555AF1 (void);
+// 0x00000029 System.Int32 Vizario.CoreWrapper::VizarioCore_getSupportedCallbacks(System.Int32,System.IntPtr)
+extern void CoreWrapper_VizarioCore_getSupportedCallbacks_m90B7225EA1750C3DE6040FAFA85369523F38BFCE (void);
+// 0x0000002A System.Void Vizario.CoreWrapper::VizarioCore_destroy()
+extern void CoreWrapper_VizarioCore_destroy_mB2CB2733386F9E637C61443F3DD3C38B80CB5A19 (void);
+// 0x0000002B System.IntPtr Vizario.CoreWrapper::VizarioCore_nativeRenderEventFunc()
+extern void CoreWrapper_VizarioCore_nativeRenderEventFunc_mEA8DE96272DE03A79FD7A41D4897FE39B0F384DC (void);
+// 0x0000002C Vizario.DeviceChecker/DeviceType Vizario.DeviceChecker::get_deviceType()
+extern void DeviceChecker_get_deviceType_m4634EF39E9ED7AA604B0F4787108B5839BEA14D6 (void);
+// 0x0000002D System.Void Vizario.DeviceChecker::set_deviceType(Vizario.DeviceChecker/DeviceType)
+extern void DeviceChecker_set_deviceType_m3A1AD4037E9A9B8FCF079DB2D522DD208F089E72 (void);
+// 0x0000002E System.Void Vizario.DeviceChecker::set_editorMode(System.Boolean)
+extern void DeviceChecker_set_editorMode_m5D4D21FAFBEE80BB78E1DE7B1F2C927FEADEE8F4 (void);
+// 0x0000002F Vizario.Platform.AVDeviceStore Vizario.DeviceChecker::get_avDeviceStore()
+extern void DeviceChecker_get_avDeviceStore_m5A201447074625F25A9D33B951DEDC7F23F02B28 (void);
+// 0x00000030 System.Void Vizario.DeviceChecker::set_avDeviceStore(Vizario.Platform.AVDeviceStore)
+extern void DeviceChecker_set_avDeviceStore_m71EAC19F9EA37B13A5898AB9FF75E75150EC9206 (void);
+// 0x00000031 System.Void Vizario.DeviceChecker::.ctor()
+extern void DeviceChecker__ctor_mFC45F476D6DD10C258913CD03C9A2AD8933627A2 (void);
+// 0x00000032 Vizario.DeviceChecker Vizario.DeviceChecker::GetOrCreateDeviceChecker()
+extern void DeviceChecker_GetOrCreateDeviceChecker_m23D8CFE17C3F52A8B45BBBBE805B371F5899C5D8 (void);
+// 0x00000033 System.Void Vizario.DeviceChecker::SetupDeviceType()
+extern void DeviceChecker_SetupDeviceType_m6BED7D4F01AF3B1375E2F6D74A13292246C0E255 (void);
+// 0x00000034 System.Void Vizario.Platform.AVDeviceStore::.ctor()
+extern void AVDeviceStore__ctor_m7E7D6EFDA4114721F095ED956E6154A0B5206C84 (void);
+// 0x00000035 Vizario.Platform.AVDeviceStore Vizario.Platform.AVDeviceStore::GetOrCreateAVDeviceStore()
+extern void AVDeviceStore_GetOrCreateAVDeviceStore_m0D061A2EE0B051E226EEEFE8546B6673FCB840E1 (void);
+// 0x00000036 System.Void Vizario.Platform.AVDeviceStore::ReturnDevice(T)
+// 0x00000037 T Vizario.Platform.AVDeviceStore::GetDeviceById(System.String)
+// 0x00000038 T Vizario.Platform.AVDeviceStore::GetDeviceByNum(System.UInt32)
+// 0x00000039 System.Void Vizario.Platform.AVDeviceStore::AddDevice(T)
+// 0x0000003A System.Threading.Tasks.Task Vizario.Platform.AVDeviceStore::QueryDevices()
+extern void AVDeviceStore_QueryDevices_m1ABA01E3A5326BABBFF45BA20463B74CBE1DC853 (void);
+// 0x0000003B System.Void Vizario.Platform.AVDeviceStore/AVDeviceStoreListing::.ctor()
+extern void AVDeviceStoreListing__ctor_m0BA61882BA235E0432E33BB915F1D84523F5961C (void);
+// 0x0000003C System.Void Vizario.Platform.AVDeviceStore/AVDevice::.ctor(System.String,System.String)
+extern void AVDevice__ctor_m6AA9B7E9F7DA6AD88062B1371A9B0CAD52000B9E (void);
+// 0x0000003D System.UInt32 Vizario.Platform.AVDeviceStore/AVDevice::get_DeviceNum()
+extern void AVDevice_get_DeviceNum_m0196D823BB9FD94F5A739FADA81C55804740CC77 (void);
+// 0x0000003E System.Void Vizario.Platform.AVDeviceStore/AVDevice::set_DeviceNum(System.UInt32)
+extern void AVDevice_set_DeviceNum_m4EC57BCE2AA5B367AB3BDFE4EE9A1E1E261862A7 (void);
+// 0x0000003F System.String Vizario.Platform.AVDeviceStore/AVDevice::get_DeviceID()
+extern void AVDevice_get_DeviceID_mBEB9A73C92DAE8CE07FCB5E8B1F70425E2BEC4D2 (void);
+// 0x00000040 System.Void Vizario.Platform.AVDeviceStore/AVDevice::set_DeviceID(System.String)
+extern void AVDevice_set_DeviceID_m8CEA362C805A728AB14178C19A1B32570F1C1F3C (void);
+// 0x00000041 System.String Vizario.Platform.AVDeviceStore/AVDevice::get_DeviceName()
+extern void AVDevice_get_DeviceName_m3FB2711EBFE40AC8B264073542F81DE6495B4EE2 (void);
+// 0x00000042 System.Void Vizario.Platform.AVDeviceStore/AVDevice::set_DeviceName(System.String)
+extern void AVDevice_set_DeviceName_m75082623B537173F0AE369BB95B8D884EDA967D4 (void);
+// 0x00000043 System.Boolean Vizario.Platform.AVDeviceStore/AVDevice::get_Occupied()
+extern void AVDevice_get_Occupied_m331D6DC990264EA5FB85D862AE94EB7CABB13E10 (void);
+// 0x00000044 System.Void Vizario.Platform.AVDeviceStore/AVDevice::set_Occupied(System.Boolean)
+extern void AVDevice_set_Occupied_m472B3999378112433F7F0AFA76D64C0D896292BF (void);
+// 0x00000045 System.Void Vizario.Platform.AVDeviceStore/AVDevice/AVDeviceProfileSelection::.ctor(System.UInt32,System.UInt32)
+extern void AVDeviceProfileSelection__ctor_mA4D8E3D4865E99FC21A9301C7FD0EA1572E2C975 (void);
+// 0x00000046 System.UInt32 Vizario.Platform.AVDeviceStore/AVDevice/AVDeviceProfileSelection::get_DeviceNum()
+extern void AVDeviceProfileSelection_get_DeviceNum_mB1E71FCC47C55667C840C43D696B4FEB131BB81C (void);
+// 0x00000047 System.Void Vizario.Platform.AVDeviceStore/AVDevice/AVDeviceProfileSelection::set_DeviceNum(System.UInt32)
+extern void AVDeviceProfileSelection_set_DeviceNum_m0BC343C4875369B3974440B519898B3A1E46B288 (void);
+// 0x00000048 System.UInt32 Vizario.Platform.AVDeviceStore/AVDevice/AVDeviceProfileSelection::get_ProfileNum()
+extern void AVDeviceProfileSelection_get_ProfileNum_m374C0446C1D3D6C7E6EE277C3AC1EABFFD0D28A0 (void);
+// 0x00000049 System.Void Vizario.Platform.AVDeviceStore/AVDevice/AVDeviceProfileSelection::set_ProfileNum(System.UInt32)
+extern void AVDeviceProfileSelection_set_ProfileNum_m6C988957276FEFBC65F026310F667E7253974EBA (void);
+// 0x0000004A System.Void Vizario.Platform.AVDeviceStore/AudioInputDevice::.ctor(System.String,System.String)
+extern void AudioInputDevice__ctor_mDDD73F52355AE2A6732BB86093CFA8BD16B8AB08 (void);
+// 0x0000004B System.Void Vizario.Platform.AVDeviceStore/AudioInputDevice::AddNewProfile(System.UInt32,System.UInt32,System.UInt32)
+extern void AudioInputDevice_AddNewProfile_mA6A5DED67C511D720A3B6D671BA49FEDC82048EF (void);
+// 0x0000004C System.Void Vizario.Platform.AVDeviceStore/AudioInputDevice/AudioInputProfile::.ctor(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+extern void AudioInputProfile__ctor_mAA28D6919F148372F751A7E592214CEED1DF33ED (void);
+// 0x0000004D System.Void Vizario.Platform.AVDeviceStore/AudioInputDevice/AudioInputProfile::set_ProfileNum(System.UInt32)
+extern void AudioInputProfile_set_ProfileNum_mC1A1D1C4C219042A2D68ADFB9559E5D4CBDCE9A8 (void);
+// 0x0000004E System.Void Vizario.Platform.AVDeviceStore/AudioInputDevice/AudioInputProfile::set_SampleRate(System.UInt32)
+extern void AudioInputProfile_set_SampleRate_m156A8F2ED93CDED51AB5F4FA009F6A54BF8AB9E3 (void);
+// 0x0000004F System.Void Vizario.Platform.AVDeviceStore/AudioInputDevice/AudioInputProfile::set_ChannelCount(System.UInt32)
+extern void AudioInputProfile_set_ChannelCount_m8AAE46AD08F3F9586036EA21B16D6F2B8E8B78DF (void);
+// 0x00000050 System.Void Vizario.Platform.AVDeviceStore/AudioInputDevice/AudioInputProfile::set_BitsPerSample(System.UInt32)
+extern void AudioInputProfile_set_BitsPerSample_m6BB53C5279CC5A69C261EC0AF014AA5ABDA821B3 (void);
+// 0x00000051 System.Void Vizario.Platform.AVDeviceStore/AudioOutputDevice::.ctor(System.String,System.String)
+extern void AudioOutputDevice__ctor_m859868FBAEEA03FE9487671801E0BC5BBE641F28 (void);
+// 0x00000052 System.Void Vizario.Platform.AVDeviceStore/VideoInputDevice::.ctor(System.String,System.String)
+extern void VideoInputDevice__ctor_m2F40756FCFA9D474186D6B4E64F3A5E77FD7965A (void);
+// 0x00000053 System.Void Vizario.Platform.AVDeviceStore/VideoInputDevice::AddNewProfile(System.UInt32,System.UInt32,System.Double,System.Double)
+extern void VideoInputDevice_AddNewProfile_mF1B61619A061BA3DB8EBA218CA2A352C76285CDD (void);
+// 0x00000054 System.Collections.Generic.List`1<Vizario.Platform.AVDeviceStore/VideoInputDevice/VideoInputProfile> Vizario.Platform.AVDeviceStore/VideoInputDevice::GetProfiles()
+extern void VideoInputDevice_GetProfiles_m27F2A0840CF990493A6CD73BACCFE8C0A442D422 (void);
+// 0x00000055 Vizario.Platform.AVDeviceStore/VideoInputDevice/VideoInputProfile Vizario.Platform.AVDeviceStore/VideoInputDevice::GetProfileByNum(System.UInt32)
+extern void VideoInputDevice_GetProfileByNum_mD36AF41B7EF8BB5DEC385A97A3B7F98CEDA41061 (void);
+// 0x00000056 System.Void Vizario.Platform.AVDeviceStore/VideoInputDevice/VideoInputProfile::.ctor(System.UInt32,System.UInt32,System.UInt32,System.Double,System.Double)
+extern void VideoInputProfile__ctor_m27393BEAD8DAF385113C6FA8748D93090B4035E6 (void);
+// 0x00000057 System.UInt32 Vizario.Platform.AVDeviceStore/VideoInputDevice/VideoInputProfile::get_ProfileNum()
+extern void VideoInputProfile_get_ProfileNum_mFBBC48D1FEB21DE91E0D052A458906B86135D1D3 (void);
+// 0x00000058 System.Void Vizario.Platform.AVDeviceStore/VideoInputDevice/VideoInputProfile::set_ProfileNum(System.UInt32)
+extern void VideoInputProfile_set_ProfileNum_m739BA9421CE6F2DDF6B4C5BA6FF84C2B442B1DB9 (void);
+// 0x00000059 System.UInt32 Vizario.Platform.AVDeviceStore/VideoInputDevice/VideoInputProfile::get_Width()
+extern void VideoInputProfile_get_Width_m07C279FA82236AB02095EC21DD5DF9814A966514 (void);
+// 0x0000005A System.Void Vizario.Platform.AVDeviceStore/VideoInputDevice/VideoInputProfile::set_Width(System.UInt32)
+extern void VideoInputProfile_set_Width_mA4032970524F3C2DB9073ACADA08FC86D34B0AC7 (void);
+// 0x0000005B System.UInt32 Vizario.Platform.AVDeviceStore/VideoInputDevice/VideoInputProfile::get_Height()
+extern void VideoInputProfile_get_Height_m99B9888CDB50267C0FAB6FFD12D4F519B9BD0178 (void);
+// 0x0000005C System.Void Vizario.Platform.AVDeviceStore/VideoInputDevice/VideoInputProfile::set_Height(System.UInt32)
+extern void VideoInputProfile_set_Height_m953C36E7BFD9D95330F1B1964FEB5CC01E930D5A (void);
+// 0x0000005D System.Double Vizario.Platform.AVDeviceStore/VideoInputDevice/VideoInputProfile::get_FramerateNumerator()
+extern void VideoInputProfile_get_FramerateNumerator_m4E1A058A61BFB150DC59918E3BC5B53305322EF3 (void);
+// 0x0000005E System.Void Vizario.Platform.AVDeviceStore/VideoInputDevice/VideoInputProfile::set_FramerateNumerator(System.Double)
+extern void VideoInputProfile_set_FramerateNumerator_m7511C489F393AB9314C14C7876FA66E9848190FD (void);
+// 0x0000005F System.Double Vizario.Platform.AVDeviceStore/VideoInputDevice/VideoInputProfile::get_FramerateDenominator()
+extern void VideoInputProfile_get_FramerateDenominator_m4FA6A3A83A20F39319FC3CE7C2C8F5E53C66FA87 (void);
+// 0x00000060 System.Void Vizario.Platform.AVDeviceStore/VideoInputDevice/VideoInputProfile::set_FramerateDenominator(System.Double)
+extern void VideoInputProfile_set_FramerateDenominator_m0DAC4BFEC434A24BE8B8A6DE6DC911AC34566836 (void);
+// 0x00000061 System.Void Vizario.Platform.AVDeviceStore/VideoInputDevice/<>c__DisplayClass4_0::.ctor()
+extern void U3CU3Ec__DisplayClass4_0__ctor_mF4AC368479BF9972F186C201544D6233326FF70B (void);
+// 0x00000062 System.Boolean Vizario.Platform.AVDeviceStore/VideoInputDevice/<>c__DisplayClass4_0::<GetProfileByNum>b__0(Vizario.Platform.AVDeviceStore/VideoInputDevice/VideoInputProfile)
+extern void U3CU3Ec__DisplayClass4_0_U3CGetProfileByNumU3Eb__0_m93C4E3EE4CBE0D4A5238F8FAD753ED119E4A907F (void);
+// 0x00000063 System.Void Vizario.Platform.AVDeviceStore/<>c::.cctor()
+extern void U3CU3Ec__cctor_m6C9C39FCDD1BBDC31002F4D28F8620F0A814B8B8 (void);
+// 0x00000064 System.Void Vizario.Platform.AVDeviceStore/<>c::.ctor()
+extern void U3CU3Ec__ctor_mABB31B09E4D6977DB96AA9D46A2C7A39A8A967C3 (void);
+// 0x00000065 System.Threading.Tasks.Task Vizario.Platform.AVDeviceStore/<>c::<GetOrCreateAVDeviceStore>b__9_0()
+extern void U3CU3Ec_U3CGetOrCreateAVDeviceStoreU3Eb__9_0_mC1CE2BF19AAC21048660E064395606EAD62C7FDC (void);
+// 0x00000066 System.Void Vizario.Platform.AVDeviceStore/<>c__DisplayClass18_0`1::.ctor()
+// 0x00000067 System.Boolean Vizario.Platform.AVDeviceStore/<>c__DisplayClass18_0`1::<ReturnDevice>b__0(Vizario.Platform.AVDeviceStore/AudioInputDevice)
+// 0x00000068 System.Boolean Vizario.Platform.AVDeviceStore/<>c__DisplayClass18_0`1::<ReturnDevice>b__1(Vizario.Platform.AVDeviceStore/AudioOutputDevice)
+// 0x00000069 System.Boolean Vizario.Platform.AVDeviceStore/<>c__DisplayClass18_0`1::<ReturnDevice>b__2(Vizario.Platform.AVDeviceStore/VideoInputDevice)
+// 0x0000006A System.Void Vizario.Platform.AVDeviceStore/<>c__DisplayClass20_0`1::.ctor()
+// 0x0000006B System.Boolean Vizario.Platform.AVDeviceStore/<>c__DisplayClass20_0`1::<GetDeviceById>b__0(Vizario.Platform.AVDeviceStore/AudioInputDevice)
+// 0x0000006C System.Boolean Vizario.Platform.AVDeviceStore/<>c__DisplayClass20_0`1::<GetDeviceById>b__1(Vizario.Platform.AVDeviceStore/AudioOutputDevice)
+// 0x0000006D System.Boolean Vizario.Platform.AVDeviceStore/<>c__DisplayClass20_0`1::<GetDeviceById>b__2(Vizario.Platform.AVDeviceStore/VideoInputDevice)
+// 0x0000006E System.Void Vizario.Platform.AVDeviceStore/<>c__DisplayClass21_0`1::.ctor()
+// 0x0000006F System.Boolean Vizario.Platform.AVDeviceStore/<>c__DisplayClass21_0`1::<GetDeviceByNum>b__0(Vizario.Platform.AVDeviceStore/AudioInputDevice)
+// 0x00000070 System.Boolean Vizario.Platform.AVDeviceStore/<>c__DisplayClass21_0`1::<GetDeviceByNum>b__1(Vizario.Platform.AVDeviceStore/AudioOutputDevice)
+// 0x00000071 System.Boolean Vizario.Platform.AVDeviceStore/<>c__DisplayClass21_0`1::<GetDeviceByNum>b__2(Vizario.Platform.AVDeviceStore/VideoInputDevice)
+// 0x00000072 System.Void Vizario.Platform.AVDeviceStore/<QueryDevices>d__23::MoveNext()
+extern void U3CQueryDevicesU3Ed__23_MoveNext_mF2FE6B87659E3C2928EF82349535D0494B9E8F2D (void);
+// 0x00000073 System.Void Vizario.Platform.AVDeviceStore/<QueryDevices>d__23::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CQueryDevicesU3Ed__23_SetStateMachine_mBBC3A6EF55732E6624EDA72F7A0BFB9978108D09 (void);
+// 0x00000074 System.Threading.Tasks.Task Vizario.Platform.FileReadWrite::WriteTextContentAsync(System.String,System.String)
+extern void FileReadWrite_WriteTextContentAsync_m7FCC8762F68189F8FEEDE66476D63811FCDAE578 (void);
+// 0x00000075 System.Threading.Tasks.Task Vizario.Platform.FileReadWrite::WriteByteContentAsync(System.String,System.Byte[])
+extern void FileReadWrite_WriteByteContentAsync_mB7E7BFFBDD1F79E23E04C8B693989BA4B98CE468 (void);
+// 0x00000076 System.Threading.Tasks.Task`1<System.Byte[]> Vizario.Platform.FileReadWrite::ReadByteContentAsync(System.String)
+extern void FileReadWrite_ReadByteContentAsync_mE7B09B8F1014D77C9961D7F4191446CA4450A55F (void);
+// 0x00000077 System.Threading.Tasks.Task`1<System.String> Vizario.Platform.FileReadWrite::ReadTextContentAsync(System.String)
+extern void FileReadWrite_ReadTextContentAsync_mB069CBC6CF098CF3C808DAE8139285321C3520EE (void);
+// 0x00000078 System.String Vizario.Platform.FileReadWrite::ReadFileAsString(System.String,System.Boolean)
+extern void FileReadWrite_ReadFileAsString_m40CFDD7018F78FE63EF0ED087D9394B32DE5C79D (void);
+// 0x00000079 System.Void Vizario.Platform.FileReadWrite::WriteStringToFile(System.String,System.String)
+extern void FileReadWrite_WriteStringToFile_m129E38EE7E406E3FDBED193F4F109C24E0A61D28 (void);
+// 0x0000007A System.Byte[] Vizario.Platform.FileReadWrite::ReadFileAsBytes(System.String)
+extern void FileReadWrite_ReadFileAsBytes_m927819582CB310E6858A0693CB3CAE9C38F8EBF1 (void);
+// 0x0000007B System.Void Vizario.Platform.FileReadWrite::WriteBytesToFile(System.String,System.Byte[])
+extern void FileReadWrite_WriteBytesToFile_m2A0C55BC0FF65575A09280D61627FAAE9B44F926 (void);
+// 0x0000007C System.Void Vizario.Platform.FileReadWrite/<WriteTextContentAsync>d__0::MoveNext()
+extern void U3CWriteTextContentAsyncU3Ed__0_MoveNext_mBB77CC8D257A96EACD61DC55404063FB5E0679DD (void);
+// 0x0000007D System.Void Vizario.Platform.FileReadWrite/<WriteTextContentAsync>d__0::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CWriteTextContentAsyncU3Ed__0_SetStateMachine_mBF0762C1EE9BBBC951D75E69D8F7B9128C775809 (void);
+// 0x0000007E System.Void Vizario.Platform.FileReadWrite/<WriteByteContentAsync>d__1::MoveNext()
+extern void U3CWriteByteContentAsyncU3Ed__1_MoveNext_m7A3C0CAFFE6B7FB3DAD1EF0F5EFAD153D7798BA6 (void);
+// 0x0000007F System.Void Vizario.Platform.FileReadWrite/<WriteByteContentAsync>d__1::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CWriteByteContentAsyncU3Ed__1_SetStateMachine_m54A0E76D227BC99A53F4E1987F5E14BE08A686AF (void);
+// 0x00000080 System.Void Vizario.Platform.FileReadWrite/<ReadByteContentAsync>d__2::MoveNext()
+extern void U3CReadByteContentAsyncU3Ed__2_MoveNext_m958AE13B5C25ED52B1B72488F9D4E25DC5338628 (void);
+// 0x00000081 System.Void Vizario.Platform.FileReadWrite/<ReadByteContentAsync>d__2::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CReadByteContentAsyncU3Ed__2_SetStateMachine_m4AC34726DD278ADB21C23E68CA561501761B122B (void);
+// 0x00000082 System.Void Vizario.Platform.FileReadWrite/<ReadTextContentAsync>d__3::MoveNext()
+extern void U3CReadTextContentAsyncU3Ed__3_MoveNext_m7D874699B42D57F022630377BE35A03C73857072 (void);
+// 0x00000083 System.Void Vizario.Platform.FileReadWrite/<ReadTextContentAsync>d__3::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CReadTextContentAsyncU3Ed__3_SetStateMachine_mF84F2DD30580D4817C8FD372D783A138A923084F (void);
+// 0x00000084 System.Void Vizario.Platform.FileReadWrite/<>c__DisplayClass4_0::.ctor()
+extern void U3CU3Ec__DisplayClass4_0__ctor_mA461BCC6DE2BA06A8E3C1308D61E67DE614ABB8B (void);
+// 0x00000085 System.Threading.Tasks.Task`1<System.String> Vizario.Platform.FileReadWrite/<>c__DisplayClass4_0::<ReadFileAsString>b__0()
+extern void U3CU3Ec__DisplayClass4_0_U3CReadFileAsStringU3Eb__0_m9BC8E9B45A942F3BE2156A4AE8CF80B057EC0C02 (void);
+// 0x00000086 System.Void Vizario.Platform.FileReadWrite/<>c__DisplayClass5_0::.ctor()
+extern void U3CU3Ec__DisplayClass5_0__ctor_m7F4EDA3F1F5B7CEAF04B16E6FC7BFE1DF3DB896F (void);
+// 0x00000087 System.Threading.Tasks.Task Vizario.Platform.FileReadWrite/<>c__DisplayClass5_0::<WriteStringToFile>b__0()
+extern void U3CU3Ec__DisplayClass5_0_U3CWriteStringToFileU3Eb__0_m97179DA2585C236B90B62D473493CE248C89D500 (void);
+// 0x00000088 System.Void Vizario.Platform.FileReadWrite/<>c__DisplayClass6_0::.ctor()
+extern void U3CU3Ec__DisplayClass6_0__ctor_m3FBD092A3D4D401B77108607FE8E3AAD80DA0ACD (void);
+// 0x00000089 System.Threading.Tasks.Task`1<System.Byte[]> Vizario.Platform.FileReadWrite/<>c__DisplayClass6_0::<ReadFileAsBytes>b__0()
+extern void U3CU3Ec__DisplayClass6_0_U3CReadFileAsBytesU3Eb__0_m9AB387A2BDF27328B283F9A5173065D156E9F28A (void);
+// 0x0000008A System.Void Vizario.Platform.FileReadWrite/<>c__DisplayClass7_0::.ctor()
+extern void U3CU3Ec__DisplayClass7_0__ctor_m98D2C8ADB92B9DD6E0F0F4880565044746FA3162 (void);
+// 0x0000008B System.Threading.Tasks.Task Vizario.Platform.FileReadWrite/<>c__DisplayClass7_0::<WriteBytesToFile>b__0()
+extern void U3CU3Ec__DisplayClass7_0_U3CWriteBytesToFileU3Eb__0_mFF6CE4699F62D642CEAAE917878C6BE116BA6DA0 (void);
+// 0x0000008C System.String Vizario.Platform.NetworkHelper::GetCurrentNetworkName()
+extern void NetworkHelper_GetCurrentNetworkName_m9AF80C7AC6F8DCAB50D3BBB4720FB029601CB20A (void);
+static Il2CppMethodPointer s_methodPointers[140] = 
+{
+	intStringBuilderCB__ctor_mE2DD8F0C5E02ADCE9072198D00B783135C661DC8,
+	intStringBuilderCB_Invoke_m9EDAF46475D38DBE37D6ECBB4C5974C567967D50,
+	intStringBuilderCB_BeginInvoke_mDEB15425EF315423A811815BFEC7F9ECDDF7F6AA,
+	intStringBuilderCB_EndInvoke_m3CB817F30B9656D5BD4536A8FC60064ADFE22054,
+	str_intStringBuilderCB__ctor_m5A2158D0B97A4347ED99D448126A336984D4DB80,
+	str_intStringBuilderCB_Invoke_mC9CAA7EDB0FB1E4B69BD454A42CFE63E65AC7BA7,
+	str_intStringBuilderCB_BeginInvoke_m7FFC6F94530B1E21DC94E4625DEB1C50B7B9A0F5,
+	str_intStringBuilderCB_EndInvoke_m57F618F1FCF361583DEC70C5CD5107851FFB53B9,
+	PlatformWrapper__ctor_m0432DFF8AE8D0CC14A781576D34C88C2CA8F4632,
+	PlatformWrapper_GetOrCreatePlatformWrapper_mD4F8CED7E365570F54E5982B14AA59490E098E20,
+	PlatformWrapper_VizarioCore_getDeviceInfo_m613C5A38B178EA9F5169BE4BA37EA34148ABB78C,
+	PlatformWrapper_VizarioCore_registerCallbackA_mAB52BE0F36EAF1B77957123E2E0426454FBCFAEA,
+	PlatformWrapper_VizarioCore_registerCallbackB_m68C916C58AA9DFB41AD37A28ED225D4E98CA37BB,
+	PlatformWrapper_VizarioCore_unregisterCallback_mEAF177852493FB7E04CFDD43AC52096E691B99B5,
+	PlatformWrapper_VizarioCore_command_m182708081FF4D039A866FA4363912D45B4E56C4C,
+	PlatformWrapper_VizarioCore_setNativeTexturePointer_m656B9F6BBF93D49E74EB5682F6F153C781987B31,
+	PlatformWrapper_VizarioCore_pushImageData_mAF0C5F9CA0A98EE5E434681122F4F667A9B273D1,
+	PlatformWrapper_VizarioCore_getSupportedCallbacks_mCCA15449490C04F899829C02F9313D17E9B5D4E9,
+	PlatformWrapper_VizarioCore_destroy_mCEDFC7D9D22CFB310575FB8956D2416981D67F0F,
+	PlatformWrapper_VizarioCore_nativeRenderEventFunc_mC5FCE00BB6059C7DC16D00777F7F076872F4D053,
+	PlatformWrapper_VizarioCore_getDeviceInfoImpl_mED8B500836B8A74568879DA804200D1BADD60805,
+	PlatformWrapper_VizarioCore_initializeImpl_mFBA98D6DA9A257CD3B03504C9664E7F893CBD441,
+	PlatformWrapper_VizarioCore_registerCallbackAImpl_mB038C57525EEE374655C5C5EF35E1D3FA56CF8C7,
+	PlatformWrapper_VizarioCore_registerCallbackBImpl_m5C2015980421EC509047A366F82F35EFEA386CD3,
+	PlatformWrapper_VizarioCore_unregisterCallbackImpl_mC4CBFB9A4D2961F4CB1811DD332AF62851F4C961,
+	PlatformWrapper_VizarioCore_commandImpl_mE0692CA4511104258D5217C27D979B84B7776D9C,
+	PlatformWrapper_VizarioCore_setNativeTexturePointerImpl_mDA75EEDA4A1DF68F59C49A2EB0B1560CFDB0164C,
+	PlatformWrapper_VizarioCore_pushImageDataImpl_m5813467CD4A20F8F8CF3537516FB70484D8EE7F3,
+	PlatformWrapper_VizarioCore_getSupportedCallbacksImpl_mF0F8DC5AADB5AC7E5005C027AC1D45C00299FC5B,
+	PlatformWrapper_VizarioCore_destroyImpl_mD9D0235CEAA2A1EE8883ECAB8062FE645E2F052E,
+	PlatformWrapper_VizarioCore_nativeRenderEventFuncImpl_m5C2CA2311E839CA0C7086E6E88FF1DE76008E24A,
+	CoreWrapper__ctor_mB4E97592208EB6D4707BCF3CCC398F49DA787B99,
+	CoreWrapper_GetOrCreateCoreWrapper_m9F5570677E0A9D390B89861F9CF5F903ECB88E97,
+	CoreWrapper_VizarioCore_getDeviceInfo_m0AC31658BEF1E53889B1052F996114CFD5492977,
+	CoreWrapper_VizarioCore_registerCallbackA_mBDC58530EB44DF61C659150F782B380DB1266971,
+	CoreWrapper_VizarioCore_registerCallbackB_m11866B6080388D92B7EF5D92ED59DEAA4C621887,
+	CoreWrapper_VizarioCore_unregisterCallback_m94D79F336BE52568975FBE3639A9C0FB9E3A3074,
+	CoreWrapper_VizarioCore_command_mFD6EEC62DAC44ED820663CAC9C7505CF057A459C,
+	CoreWrapper_VizarioCore_setNativeTexturePointer_m1C6A1CCFEE260E6376BBFD5A35570E0D1ED44CB4,
+	CoreWrapper_VizarioCore_pushImageData_mDBAE350D13DB4B7040D7AC0F3469D92FD3555AF1,
+	CoreWrapper_VizarioCore_getSupportedCallbacks_m90B7225EA1750C3DE6040FAFA85369523F38BFCE,
+	CoreWrapper_VizarioCore_destroy_mB2CB2733386F9E637C61443F3DD3C38B80CB5A19,
+	CoreWrapper_VizarioCore_nativeRenderEventFunc_mEA8DE96272DE03A79FD7A41D4897FE39B0F384DC,
+	DeviceChecker_get_deviceType_m4634EF39E9ED7AA604B0F4787108B5839BEA14D6,
+	DeviceChecker_set_deviceType_m3A1AD4037E9A9B8FCF079DB2D522DD208F089E72,
+	DeviceChecker_set_editorMode_m5D4D21FAFBEE80BB78E1DE7B1F2C927FEADEE8F4,
+	DeviceChecker_get_avDeviceStore_m5A201447074625F25A9D33B951DEDC7F23F02B28,
+	DeviceChecker_set_avDeviceStore_m71EAC19F9EA37B13A5898AB9FF75E75150EC9206,
+	DeviceChecker__ctor_mFC45F476D6DD10C258913CD03C9A2AD8933627A2,
+	DeviceChecker_GetOrCreateDeviceChecker_m23D8CFE17C3F52A8B45BBBBE805B371F5899C5D8,
+	DeviceChecker_SetupDeviceType_m6BED7D4F01AF3B1375E2F6D74A13292246C0E255,
+	AVDeviceStore__ctor_m7E7D6EFDA4114721F095ED956E6154A0B5206C84,
+	AVDeviceStore_GetOrCreateAVDeviceStore_m0D061A2EE0B051E226EEEFE8546B6673FCB840E1,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	AVDeviceStore_QueryDevices_m1ABA01E3A5326BABBFF45BA20463B74CBE1DC853,
+	AVDeviceStoreListing__ctor_m0BA61882BA235E0432E33BB915F1D84523F5961C,
+	AVDevice__ctor_m6AA9B7E9F7DA6AD88062B1371A9B0CAD52000B9E,
+	AVDevice_get_DeviceNum_m0196D823BB9FD94F5A739FADA81C55804740CC77,
+	AVDevice_set_DeviceNum_m4EC57BCE2AA5B367AB3BDFE4EE9A1E1E261862A7,
+	AVDevice_get_DeviceID_mBEB9A73C92DAE8CE07FCB5E8B1F70425E2BEC4D2,
+	AVDevice_set_DeviceID_m8CEA362C805A728AB14178C19A1B32570F1C1F3C,
+	AVDevice_get_DeviceName_m3FB2711EBFE40AC8B264073542F81DE6495B4EE2,
+	AVDevice_set_DeviceName_m75082623B537173F0AE369BB95B8D884EDA967D4,
+	AVDevice_get_Occupied_m331D6DC990264EA5FB85D862AE94EB7CABB13E10,
+	AVDevice_set_Occupied_m472B3999378112433F7F0AFA76D64C0D896292BF,
+	AVDeviceProfileSelection__ctor_mA4D8E3D4865E99FC21A9301C7FD0EA1572E2C975,
+	AVDeviceProfileSelection_get_DeviceNum_mB1E71FCC47C55667C840C43D696B4FEB131BB81C,
+	AVDeviceProfileSelection_set_DeviceNum_m0BC343C4875369B3974440B519898B3A1E46B288,
+	AVDeviceProfileSelection_get_ProfileNum_m374C0446C1D3D6C7E6EE277C3AC1EABFFD0D28A0,
+	AVDeviceProfileSelection_set_ProfileNum_m6C988957276FEFBC65F026310F667E7253974EBA,
+	AudioInputDevice__ctor_mDDD73F52355AE2A6732BB86093CFA8BD16B8AB08,
+	AudioInputDevice_AddNewProfile_mA6A5DED67C511D720A3B6D671BA49FEDC82048EF,
+	AudioInputProfile__ctor_mAA28D6919F148372F751A7E592214CEED1DF33ED,
+	AudioInputProfile_set_ProfileNum_mC1A1D1C4C219042A2D68ADFB9559E5D4CBDCE9A8,
+	AudioInputProfile_set_SampleRate_m156A8F2ED93CDED51AB5F4FA009F6A54BF8AB9E3,
+	AudioInputProfile_set_ChannelCount_m8AAE46AD08F3F9586036EA21B16D6F2B8E8B78DF,
+	AudioInputProfile_set_BitsPerSample_m6BB53C5279CC5A69C261EC0AF014AA5ABDA821B3,
+	AudioOutputDevice__ctor_m859868FBAEEA03FE9487671801E0BC5BBE641F28,
+	VideoInputDevice__ctor_m2F40756FCFA9D474186D6B4E64F3A5E77FD7965A,
+	VideoInputDevice_AddNewProfile_mF1B61619A061BA3DB8EBA218CA2A352C76285CDD,
+	VideoInputDevice_GetProfiles_m27F2A0840CF990493A6CD73BACCFE8C0A442D422,
+	VideoInputDevice_GetProfileByNum_mD36AF41B7EF8BB5DEC385A97A3B7F98CEDA41061,
+	VideoInputProfile__ctor_m27393BEAD8DAF385113C6FA8748D93090B4035E6,
+	VideoInputProfile_get_ProfileNum_mFBBC48D1FEB21DE91E0D052A458906B86135D1D3,
+	VideoInputProfile_set_ProfileNum_m739BA9421CE6F2DDF6B4C5BA6FF84C2B442B1DB9,
+	VideoInputProfile_get_Width_m07C279FA82236AB02095EC21DD5DF9814A966514,
+	VideoInputProfile_set_Width_mA4032970524F3C2DB9073ACADA08FC86D34B0AC7,
+	VideoInputProfile_get_Height_m99B9888CDB50267C0FAB6FFD12D4F519B9BD0178,
+	VideoInputProfile_set_Height_m953C36E7BFD9D95330F1B1964FEB5CC01E930D5A,
+	VideoInputProfile_get_FramerateNumerator_m4E1A058A61BFB150DC59918E3BC5B53305322EF3,
+	VideoInputProfile_set_FramerateNumerator_m7511C489F393AB9314C14C7876FA66E9848190FD,
+	VideoInputProfile_get_FramerateDenominator_m4FA6A3A83A20F39319FC3CE7C2C8F5E53C66FA87,
+	VideoInputProfile_set_FramerateDenominator_m0DAC4BFEC434A24BE8B8A6DE6DC911AC34566836,
+	U3CU3Ec__DisplayClass4_0__ctor_mF4AC368479BF9972F186C201544D6233326FF70B,
+	U3CU3Ec__DisplayClass4_0_U3CGetProfileByNumU3Eb__0_m93C4E3EE4CBE0D4A5238F8FAD753ED119E4A907F,
+	U3CU3Ec__cctor_m6C9C39FCDD1BBDC31002F4D28F8620F0A814B8B8,
+	U3CU3Ec__ctor_mABB31B09E4D6977DB96AA9D46A2C7A39A8A967C3,
+	U3CU3Ec_U3CGetOrCreateAVDeviceStoreU3Eb__9_0_mC1CE2BF19AAC21048660E064395606EAD62C7FDC,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	U3CQueryDevicesU3Ed__23_MoveNext_mF2FE6B87659E3C2928EF82349535D0494B9E8F2D,
+	U3CQueryDevicesU3Ed__23_SetStateMachine_mBBC3A6EF55732E6624EDA72F7A0BFB9978108D09,
+	FileReadWrite_WriteTextContentAsync_m7FCC8762F68189F8FEEDE66476D63811FCDAE578,
+	FileReadWrite_WriteByteContentAsync_mB7E7BFFBDD1F79E23E04C8B693989BA4B98CE468,
+	FileReadWrite_ReadByteContentAsync_mE7B09B8F1014D77C9961D7F4191446CA4450A55F,
+	FileReadWrite_ReadTextContentAsync_mB069CBC6CF098CF3C808DAE8139285321C3520EE,
+	FileReadWrite_ReadFileAsString_m40CFDD7018F78FE63EF0ED087D9394B32DE5C79D,
+	FileReadWrite_WriteStringToFile_m129E38EE7E406E3FDBED193F4F109C24E0A61D28,
+	FileReadWrite_ReadFileAsBytes_m927819582CB310E6858A0693CB3CAE9C38F8EBF1,
+	FileReadWrite_WriteBytesToFile_m2A0C55BC0FF65575A09280D61627FAAE9B44F926,
+	U3CWriteTextContentAsyncU3Ed__0_MoveNext_mBB77CC8D257A96EACD61DC55404063FB5E0679DD,
+	U3CWriteTextContentAsyncU3Ed__0_SetStateMachine_mBF0762C1EE9BBBC951D75E69D8F7B9128C775809,
+	U3CWriteByteContentAsyncU3Ed__1_MoveNext_m7A3C0CAFFE6B7FB3DAD1EF0F5EFAD153D7798BA6,
+	U3CWriteByteContentAsyncU3Ed__1_SetStateMachine_m54A0E76D227BC99A53F4E1987F5E14BE08A686AF,
+	U3CReadByteContentAsyncU3Ed__2_MoveNext_m958AE13B5C25ED52B1B72488F9D4E25DC5338628,
+	U3CReadByteContentAsyncU3Ed__2_SetStateMachine_m4AC34726DD278ADB21C23E68CA561501761B122B,
+	U3CReadTextContentAsyncU3Ed__3_MoveNext_m7D874699B42D57F022630377BE35A03C73857072,
+	U3CReadTextContentAsyncU3Ed__3_SetStateMachine_mF84F2DD30580D4817C8FD372D783A138A923084F,
+	U3CU3Ec__DisplayClass4_0__ctor_mA461BCC6DE2BA06A8E3C1308D61E67DE614ABB8B,
+	U3CU3Ec__DisplayClass4_0_U3CReadFileAsStringU3Eb__0_m9BC8E9B45A942F3BE2156A4AE8CF80B057EC0C02,
+	U3CU3Ec__DisplayClass5_0__ctor_m7F4EDA3F1F5B7CEAF04B16E6FC7BFE1DF3DB896F,
+	U3CU3Ec__DisplayClass5_0_U3CWriteStringToFileU3Eb__0_m97179DA2585C236B90B62D473493CE248C89D500,
+	U3CU3Ec__DisplayClass6_0__ctor_m3FBD092A3D4D401B77108607FE8E3AAD80DA0ACD,
+	U3CU3Ec__DisplayClass6_0_U3CReadFileAsBytesU3Eb__0_m9AB387A2BDF27328B283F9A5173065D156E9F28A,
+	U3CU3Ec__DisplayClass7_0__ctor_m98D2C8ADB92B9DD6E0F0F4880565044746FA3162,
+	U3CU3Ec__DisplayClass7_0_U3CWriteBytesToFileU3Eb__0_mFF6CE4699F62D642CEAAE917878C6BE116BA6DA0,
+	NetworkHelper_GetCurrentNetworkName_m9AF80C7AC6F8DCAB50D3BBB4720FB029601CB20A,
+};
+extern void U3CQueryDevicesU3Ed__23_MoveNext_mF2FE6B87659E3C2928EF82349535D0494B9E8F2D_AdjustorThunk (void);
+extern void U3CQueryDevicesU3Ed__23_SetStateMachine_mBBC3A6EF55732E6624EDA72F7A0BFB9978108D09_AdjustorThunk (void);
+extern void U3CWriteTextContentAsyncU3Ed__0_MoveNext_mBB77CC8D257A96EACD61DC55404063FB5E0679DD_AdjustorThunk (void);
+extern void U3CWriteTextContentAsyncU3Ed__0_SetStateMachine_mBF0762C1EE9BBBC951D75E69D8F7B9128C775809_AdjustorThunk (void);
+extern void U3CWriteByteContentAsyncU3Ed__1_MoveNext_m7A3C0CAFFE6B7FB3DAD1EF0F5EFAD153D7798BA6_AdjustorThunk (void);
+extern void U3CWriteByteContentAsyncU3Ed__1_SetStateMachine_m54A0E76D227BC99A53F4E1987F5E14BE08A686AF_AdjustorThunk (void);
+extern void U3CReadByteContentAsyncU3Ed__2_MoveNext_m958AE13B5C25ED52B1B72488F9D4E25DC5338628_AdjustorThunk (void);
+extern void U3CReadByteContentAsyncU3Ed__2_SetStateMachine_m4AC34726DD278ADB21C23E68CA561501761B122B_AdjustorThunk (void);
+extern void U3CReadTextContentAsyncU3Ed__3_MoveNext_m7D874699B42D57F022630377BE35A03C73857072_AdjustorThunk (void);
+extern void U3CReadTextContentAsyncU3Ed__3_SetStateMachine_mF84F2DD30580D4817C8FD372D783A138A923084F_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[10] = 
+{
+	{ 0x06000072, U3CQueryDevicesU3Ed__23_MoveNext_mF2FE6B87659E3C2928EF82349535D0494B9E8F2D_AdjustorThunk },
+	{ 0x06000073, U3CQueryDevicesU3Ed__23_SetStateMachine_mBBC3A6EF55732E6624EDA72F7A0BFB9978108D09_AdjustorThunk },
+	{ 0x0600007C, U3CWriteTextContentAsyncU3Ed__0_MoveNext_mBB77CC8D257A96EACD61DC55404063FB5E0679DD_AdjustorThunk },
+	{ 0x0600007D, U3CWriteTextContentAsyncU3Ed__0_SetStateMachine_mBF0762C1EE9BBBC951D75E69D8F7B9128C775809_AdjustorThunk },
+	{ 0x0600007E, U3CWriteByteContentAsyncU3Ed__1_MoveNext_m7A3C0CAFFE6B7FB3DAD1EF0F5EFAD153D7798BA6_AdjustorThunk },
+	{ 0x0600007F, U3CWriteByteContentAsyncU3Ed__1_SetStateMachine_m54A0E76D227BC99A53F4E1987F5E14BE08A686AF_AdjustorThunk },
+	{ 0x06000080, U3CReadByteContentAsyncU3Ed__2_MoveNext_m958AE13B5C25ED52B1B72488F9D4E25DC5338628_AdjustorThunk },
+	{ 0x06000081, U3CReadByteContentAsyncU3Ed__2_SetStateMachine_m4AC34726DD278ADB21C23E68CA561501761B122B_AdjustorThunk },
+	{ 0x06000082, U3CReadTextContentAsyncU3Ed__3_MoveNext_m7D874699B42D57F022630377BE35A03C73857072_AdjustorThunk },
+	{ 0x06000083, U3CReadTextContentAsyncU3Ed__3_SetStateMachine_mF84F2DD30580D4817C8FD372D783A138A923084F_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[140] = 
+{
+	131,
+	62,
+	361,
+	26,
+	131,
+	142,
+	361,
+	28,
+	23,
+	4,
+	137,
+	3581,
+	3581,
+	52,
+	2611,
+	3582,
+	3583,
+	3584,
+	23,
+	15,
+	379,
+	3,
+	3585,
+	3585,
+	53,
+	3586,
+	3587,
+	3588,
+	3589,
+	3,
+	793,
+	23,
+	4,
+	137,
+	2611,
+	2611,
+	52,
+	2611,
+	3582,
+	3583,
+	3584,
+	23,
+	15,
+	10,
+	32,
+	31,
+	14,
+	26,
+	23,
+	4,
+	23,
+	23,
+	4,
+	-1,
+	-1,
+	-1,
+	-1,
+	14,
+	23,
+	27,
+	10,
+	32,
+	14,
+	26,
+	14,
+	26,
+	89,
+	31,
+	136,
+	10,
+	32,
+	10,
+	32,
+	27,
+	38,
+	346,
+	32,
+	32,
+	32,
+	32,
+	27,
+	27,
+	3590,
+	14,
+	34,
+	3591,
+	10,
+	32,
+	10,
+	32,
+	10,
+	32,
+	467,
+	343,
+	467,
+	343,
+	23,
+	9,
+	3,
+	23,
+	14,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	23,
+	26,
+	1,
+	1,
+	0,
+	0,
+	167,
+	143,
+	0,
+	143,
+	23,
+	26,
+	23,
+	26,
+	23,
+	26,
+	23,
+	26,
+	23,
+	14,
+	23,
+	14,
+	23,
+	14,
+	23,
+	14,
+	4,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[5] = 
+{
+	{ 0x02000016, { 22, 1 } },
+	{ 0x06000036, { 0, 6 } },
+	{ 0x06000037, { 6, 7 } },
+	{ 0x06000038, { 13, 7 } },
+	{ 0x06000039, { 20, 2 } },
+};
+static const Il2CppRGCTXDefinition s_rgctxValues[23] = 
+{
+	{ (Il2CppRGCTXDataType)2, 107839 },
+	{ (Il2CppRGCTXDataType)3, 105376 },
+	{ (Il2CppRGCTXDataType)1, 93690 },
+	{ (Il2CppRGCTXDataType)3, 105377 },
+	{ (Il2CppRGCTXDataType)3, 105378 },
+	{ (Il2CppRGCTXDataType)3, 105379 },
+	{ (Il2CppRGCTXDataType)2, 107840 },
+	{ (Il2CppRGCTXDataType)3, 105380 },
+	{ (Il2CppRGCTXDataType)1, 93691 },
+	{ (Il2CppRGCTXDataType)3, 105381 },
+	{ (Il2CppRGCTXDataType)2, 93691 },
+	{ (Il2CppRGCTXDataType)3, 105382 },
+	{ (Il2CppRGCTXDataType)3, 105383 },
+	{ (Il2CppRGCTXDataType)2, 107841 },
+	{ (Il2CppRGCTXDataType)3, 105384 },
+	{ (Il2CppRGCTXDataType)1, 93692 },
+	{ (Il2CppRGCTXDataType)3, 105385 },
+	{ (Il2CppRGCTXDataType)2, 93692 },
+	{ (Il2CppRGCTXDataType)3, 105386 },
+	{ (Il2CppRGCTXDataType)3, 105387 },
+	{ (Il2CppRGCTXDataType)1, 93693 },
+	{ (Il2CppRGCTXDataType)2, 93693 },
+	{ (Il2CppRGCTXDataType)2, 107842 },
+};
+extern const Il2CppCodeGenModule g_PlatformCodeGenModule;
+const Il2CppCodeGenModule g_PlatformCodeGenModule = 
+{
+	"Platform.dll",
+	140,
+	s_methodPointers,
+	10,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	5,
+	s_rgctxIndices,
+	23,
+	s_rgctxValues,
+	NULL,
+};

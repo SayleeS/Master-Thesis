@@ -1,0 +1,8 @@
+﻿  App.cpp
+  UnityGenerated.cpp
+H:\Ragrug\ragrug\arclient\unity\June Build\RR-vu\App.cpp(26,1): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': marked as deprecated
+H:\Ragrug\ragrug\arclient\unity\June Build\RR-vu\App.cpp(26,1): message : Message: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
+  Generating code
+  Finished generating code
+  RR-vu.vcxproj -> H:\Ragrug\ragrug\arclient\unity\June Build\build\bin\ARM64\Release\RR-vu.exe
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VisualStudio\v16.0\AppxPackage\Microsoft.AppXPackage.Targets(3229,5): warning : APPX4001: Build property AppxBundlePlatforms is not explicitly set and is calculated based on currently building architecture. Use 'Create App Package' wizard or edit project file to set it.

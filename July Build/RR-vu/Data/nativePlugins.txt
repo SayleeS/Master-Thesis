@@ -1,0 +1,6 @@
+lib_burst_generated.dll
+VuforiaWrapper.dll
+Vizario.CoreBridgeSink.dll
+AudioPluginMsHRTF.dll
+VizarioCore.dll
+Vuforia.dll
